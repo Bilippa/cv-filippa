@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(239, 221, 250);
+}
+/* bakgrundsfärgen av alla sidor med body taggen ska ha den valda färgen*/
+a {
+    font-family: Impact;
+    font-size: 150%;
+    padding: 50px;
+    letter-spacing: 1px;
+}
+/* alla länkar ska följa CSS:n som ligger ovanför, alltså vilken font som användes, vilken storlek, samt hur stort mellanrum de ska ha 
+gentemot annat innehåll (padding) samt egna bokstäver (letter spacing).*/
+
+nav {
+    text-align: center;
+}
+/* länkarna i nav baren ska vara centrerade.*/
+
+h1 {
+    font-family: Impact;
+    text-align: center;
+    padding-top: 25px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-family: Impact;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family:Arial;
+    padding: 8px;
+    letter-spacing: 1px;
+    line-height: 1.7;
+}
+/* mellanrummet mellan text rader inom en p tag (vertikalt) är definierad med line-height*/
+
+li {
+    font-family:Arial;
+    padding: 8px;
+    letter-spacing: 1px;
+    line-height: 1.7;
+}
+img {
+    width: 150px;
+    height: 150px;
+    border-style: outset;
+    border-color: white;
+    border-width: 2px;
+}
+/* alla bilder ska ha likadan border och storlek*/ 
